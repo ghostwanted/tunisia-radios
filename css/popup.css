@@ -1,0 +1,33 @@
+body {
+	width: 300px;
+}
+
+img {
+	height: 80px;
+	width: 80px;
+}
+
+.active {
+	color: #ff0000;
+}
+
+.panel {
+	height: 165px;
+}
+
+#radio-list {
+	height: 165px;
+	overflow-y: scroll;
+}
+
+button:focus {
+	 outline:none !important;
+}
+
+td {
+	padding-right: 5px;
+}
+
+a {
+	cursor: pointer;
+}

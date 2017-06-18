@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Tunisia Radios",
+  "version": "0.0.1",
+
+  "description": "Tunisia Radios extension for Chrome",
+  "icons": {
+    "16": "img/app/icon-16.png",
+    "48": "img/app/icon-48.png",
+    "128": "img/app/icon-128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "img/app/icon-19.png",
+    "default_popup": "html/popup.html"
+  },
+
+  "author": "Mohamed Amine Hosni, Oussema Hidri",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "./js/lib/jquery.min.js",
+      "./js/background.js"
+    ]
+  },
+  "homepage_url": "http://tnradios.esy.es/",
+  "optional_permissions": ["tabs"],
+  "options_page": "html/options.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "html/options.html"
+  },
+  "permissions": [
+    "tabs",
+    "background",
+    "contextMenus"
+  ]
+}
